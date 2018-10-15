@@ -18,6 +18,7 @@ killJavaTask(){
 cd $PROJ_PATH
 
 # 编译vue项目生成dist静态文件
+npm install
 npm run build
 
 # 删除之前的项目
